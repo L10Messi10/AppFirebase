@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFirebase.UserDetailPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="Fname" Text="{Binding Fname}" IsReadOnly="True"/>
+            <Entry x:Name="Lname" Text="{Binding Lname}" />
+            <Entry x:Name="age" Text="{Binding age}" />
+            <Button Text="Update" Clicked="Button_OnClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
